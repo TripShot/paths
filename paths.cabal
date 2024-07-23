@@ -1,7 +1,6 @@
-cabal-version:       1.12
+cabal-version:       3.4
 name:                paths
-version:             0.2.0.0
-x-revision:          2
+version:             0.2.1.0
 
 synopsis:            Library for representing and manipulating type-safe file paths
 description:         This library provides a more type-safe version of 'FilePath's together with thin wrappers around common IO operations.
@@ -11,7 +10,7 @@ description:         This library provides a more type-safe version of 'FilePath
                      module.
 
 bug-reports:         https://github.com/hvr/paths/issues
-license:             BSD3
+license:             BSD-3-Clause
 license-file:        LICENSE
 author:              Herbert Valerio Riedel
 copyright:           2015-2017 Well-Typed LLP,
@@ -20,7 +19,7 @@ maintainer:          hvr@gnu.org
 category:            System
 build-type:          Simple
 
-extra-source-files:  ChangeLog.md
+extra-doc-files:  ChangeLog.md
 
 tested-with:         GHC == 7.4.2
                       || == 7.6.3
